@@ -17,6 +17,8 @@ function loe_webchat($persid,$count){
     'user'=>'',
     'login'=>''
   );
+
+  --123
   if (strpos($count, '/')){
     list($post['ecount1'],$post['ecount2'],$post['ecount3'])=explode('/', $count);
   };
